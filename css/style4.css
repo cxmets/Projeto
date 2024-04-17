@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.comeco{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+}
+
+.conteudo{
+    width: 60%; /* Defina a largura inicial desejada para o carrinho */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #5F9EA0;
+    display: inline-block;
+    min-height: 100px; /* Defina a altura mínima desejada para o carrinho */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+}
+.conteudo-princ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.lista-de-compras {
+    list-style: none;
+    padding: 0;
+   
+}
+
+/* Estilos adicionais para a lista de compras, se necessário */
+.lista-de-compras ul {
+    margin: 10px 0; /* Adicione margem vertical */
+    padding: 15px; /* Adicione preenchimento para espaço interno */
+    border: 1px solid #ccc;
+    list-style: none;
+}
+
+
+
+.btn{
+    list-style: none;
+    border-radius: 19px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    gap: 30px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Estilize o container do carrinho */
+#carrinho-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end; 
+    gap: 20px;
+  }
+  
+  /* Estilize cada item do carrinho */
+  #carrinho-lista li {
+    display: flex;
+    align-items: center; /* Centralize verticalmente o texto e a imagem */
+    margin: 10px 0; /* Espaçamento entre os itens do carrinho */
+  }
+  
+  /* Estilize as imagens do produto no carrinho */
+  #carrinho-lista img {
+    max-width: 150px; /* Defina o tamanho máximo das imagens */
+    max-height: 150px; /* Defina o tamanho máximo das imagens */
+    margin-right: 30px; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  /* Estilize o texto do produto e o preço */
+  #carrinho-lista span {
+    text-align: center; /* Centralize o texto horizontalmente */
+  }
+  
+  /* Estilize o preço */
+  #carrinho-lista span.price {
+    font-weight: bold; /* Faça o preço se destacar */
+  }
+  

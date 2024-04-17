@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    background-color: #333;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.links:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05); 
+    
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    border-radius: 20px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float: left;
+    height:30px;
+    border-radius:0 7px 7px 0;
+    width:73px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+    
+  }
+
+
+
+
+
+.conteudo1{
+    display: flex;
+    background-color: #333;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 30%;
+    height: 70vh;
+    border-radius: 50px;
+}
+
+.barrinha{
+    width: 100%;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+label{
+    color: white;
+}
+
+.mensagem{
+    width: 100%;
+    height: 10vh;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.btn{
+    background-color: wheat;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+    gap: 15px;
+}
+
+.btn:hover{
+    background-color:rgb(161, 150, 150);
+    color: white;
+}
+
+
+.password-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .password-input {
+    width: 50vh;
+    padding-right: 30px;
+    padding: 7px;
+    border-radius: 15px; /* Espaço para o ícone/botão */
+  }
+
+  .show-password-btn {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
