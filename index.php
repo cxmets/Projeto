@@ -17,7 +17,7 @@ session_start();
     <header class="cabecalho">
         <nav>
             <div class="cabe"> 
-                <h3>Logo</h3>
+                <h3>hebert sport</h3>
                 
                 <div class="conteudo">
                     <a class="links" href="#">Carrinho</a>
