@@ -1,6 +1,7 @@
 <?php 
 session_start();
 ?>
+<!-- ALTERAÇÂO-TESTE -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
